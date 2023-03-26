@@ -9,13 +9,6 @@
     $user = new User($con, $userId);
   }
 
-  function isLoggedIn() {
-    if(isset($_SESSION['userLoggedIn'])) {
-      return true;
-    } else {
-      return false;
-    }
-  }
 
 ?>
 
