@@ -28,16 +28,15 @@
   <title>Home</title>
 </head>
 <body>
-  <?php
-    if(isLoggedIn()) {
-      echo "<a href='./include/handler/logout-handler.php'>Logout</a>";
-    }
-  ?>
+  
+  <?php include("./include/components/navbar.php")?>
 
   <?php
     if(isLoggedIn()) {
       echo "Products
-      <button>Add Product</button>";
+      <button>
+        <a href='./add-product.php'>Add Product</a>
+      </button>";
     }
   ?>
 
@@ -70,6 +69,8 @@
       }
     }
   ?>
+
+
 
 
 </body>
