@@ -1,5 +1,5 @@
 <?php 
-  namespace testclasses;
+  namespace App\Testclasses;
 
   class Email {
     public function validateEmail($email) {

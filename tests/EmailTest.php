@@ -1,17 +1,17 @@
-<!-- <?php
+<?php
 
 use PHPUnit\Framework\TestCase;
 
 
 class EmailTest extends TestCase {
     
-    public function validateEmailTest() {
+    public function testValidateEmail() {
 
-      // $email = new testclasses\Email;
-      // $result = $email->validateEmail("email@email.com");
+      $email = new App\Testclasses\Email;
+      $result = $email->validateEmail("email@email.com");
 
-      // $this->assertEquals("Valid email format", $result);
+      $this->assertEquals("Valid email format", $result);
 
-      $this->assertTrue(true);
+ 
     }
-  } -->
+  }
