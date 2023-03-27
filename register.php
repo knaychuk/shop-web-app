@@ -12,9 +12,9 @@
     <label for="fullName">Full Name</label>
     <input type="text" name="fullName" id="fullName" placeholder="First and Last Name" aria-label="First and Last Name" required>
     <label for="email">Email</label>
-    <input type="text" name="email" id="email" placeholder="Email" aria-label="Email" required>
+    <input type="email" name="email" id="email" placeholder="Email" aria-label="Email" required>
     <label for="phoneNumber">Phone Number</label>
-    <input type="text" name="phoneNumber" id="phoneNumber" placeholder="Phone Number" aria-label="Phone Number" required>
+    <input type="tel" name="phoneNumber" id="phoneNumber" placeholder="Phone Number" aria-label="Phone Number" required>
     <label for="creditCardNumber">Credit Card Number</label>
     <input type="text" name="creditCardNumber" id="creditCardNumber" placeholder="Credit Card Number" aria-label="Credit Card Number" required>
     <label for="creditCardExpiryDate">Expiry Date</label>
